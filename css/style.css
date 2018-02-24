@@ -40,7 +40,7 @@ button:focus {
 .plus{
   width:20vw;
   padding: 0px;
-  background-color:#whitesmoke;
+  background-color:whitesmoke;
   border: 0px solid blue;
   font-size: 4em;
   border-radius: 140px 140px 0px 0px
@@ -91,7 +91,7 @@ div, button, body{
   display:flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100vw;
+  height: 100vh;
 }
 .game, .set{
   width: 30vw;
