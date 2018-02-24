@@ -33,27 +33,26 @@ button:focus {
 }
 .plus{
   width:20vw;
-  padding: 5px 5px 0px 5px;
+  padding: 15px 5px 0px 5px;
   background-color:#eff2ff;
   border: 0px solid blue;
-  font-size: 4em;
-  border-radius: 40px 40px 0px 0px
+  font-size: 1.7em;
+  border-radius: 20px 20px 0px 0px
     
 }
 
 .minus{
    width:20vw;
-  padding: 3px 3px 3px 3px;
+  padding: 5px 5px 10px 5px;
   background-color:#560000;
   border: 0px solid blue;
-  font-size: 3.7em;
-  border-radius: 0px 0px 40px 40px;
+  font-size: 1.7em;
+  border-radius: 0px 0px 20px 20px;
   color:white;
 }
 button{
-  
+  padding:1em;
   margin:11px;
-  font-size: 18px;
 }
 div, button, body{
   font-family: 'Arvo', serif;
@@ -72,14 +71,4 @@ div, button, body{
 .lef{
   background-color:#560000;
   color:white;
-}
-.wrap{
-  display:flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 100vw;
-}
-.game, .set{
-  width: 30vw;
-  height: 20vh
 }
