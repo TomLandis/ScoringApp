@@ -14,23 +14,10 @@ h1{
   padding-bottom: 20px;
 
 }
-.righty{
-  background-color:#ce311c;
-  min-height:50vh;
-}
-.left{
-
-  min-height:50vh;
-  background-color:#0040a8;
-}
 .left, .righty{
-    display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:space-around;
   color: white;
   width:40vw;
-  
+  background-color:#0040a8;
  text-align:center;
   min-width:110px;
   padding-bottom: 20px;
@@ -42,31 +29,31 @@ button:focus {
   outline: none;
 }
 #switch{
-  height:30px;
+  
 }
 .plus{
   width:20vw;
-  padding: 15px 5px 0px 5px;
+  padding: 5px 5px 0px 5px;
   background-color:#eff2ff;
   border: 0px solid blue;
-  font-size: 1.7em;
-  border-radius: 20px 20px 0px 0px
+  font-size: 4em;
+  border-radius: 40px 40px 0px 0px
     
 }
 
 .minus{
    width:20vw;
-  padding: 5px 5px 10px 5px;
-  background-color:#424242;
+  padding: 3px 3px 3px 3px;
+  background-color:#560000;
   border: 0px solid blue;
-  font-size: 1.7em;
-  border-radius: 0px 0px 20px 20px;
+  font-size: 3.7em;
+  border-radius: 0px 0px 40px 40px;
   color:white;
 }
 button{
-  font-size:1.4em;
-  padding:1em;
+  
   margin:11px;
+  font-size: 18px;
 }
 div, button, body{
   font-family: 'Arvo', serif;
@@ -79,20 +66,20 @@ div, button, body{
   margin:0;
 }
 .rig{
-  height:10vh;
-  width:35vw;
   background-color:#0040a8;
   color: white
 }
 .lef{
-   height:10vh;
-  width:35vw;
-  background-color:#ce311c;
+  background-color:#560000;
   color:white;
 }
 .wrap{
   display:flex;
-  flex-direction:column;
-  height:90vh;
-  justify-content:space-around;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vw;
+}
+.game, .set{
+  width: 30vw;
+  height: 20vh
 }

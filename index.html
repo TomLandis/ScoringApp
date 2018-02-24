@@ -14,15 +14,15 @@
 
 <body>
 
- <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 <div class="wrap">
 <div class="raw">CRT: 1      <br>   Time: 19:50:00 (68949)</div>
 <div id="sb">
   <div class="left">
 
     <h2>Itiki Strikers</h2>
-    <button id="leftPlus" class="plus">+</button>
-    <h1>19</h1>
+    <button id="leftPlus" class="plus" onClick="upLeft">+</button>
+    <h1 id="lScore">19</h1>
     <button class="minus" id="leftMinus">-</button
     
   </div>
@@ -30,9 +30,9 @@
  
   <div class="righty">
     
-    <h2>SFindit Slayers</h2>
+    <h2>SFindidt Slayers</h2>
     <button id="leftPlus2" class="plus">+</button>
-    <h1>13</h1>
+    <h1 id="rScore">13</h1>
     <button class="minus" id="leftMinus2">-</button>
 
   </div>
@@ -51,9 +51,14 @@
   <button class="rig game">Next <br>Game</button>
 </div>
   </div>
-<script  src="js/index.js"></script>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
 </body>
 
- 
-  
 </html>
