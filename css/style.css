@@ -51,6 +51,7 @@ button:focus {
   color:white;
 }
 button{
+  font-size:1.4em;
   padding:1em;
   margin:11px;
 }
