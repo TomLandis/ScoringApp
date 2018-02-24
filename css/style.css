@@ -21,9 +21,13 @@ h1{
   background-color:#0040a8;
 }
 .left, .righty{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
   color: white;
   width:40vw;
-  min-height:50vw;
+  min-height:50vh;
  text-align:center;
   min-width:110px;
   padding-bottom: 20px;
