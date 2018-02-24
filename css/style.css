@@ -72,3 +72,8 @@ div, button, body{
   background-color:#560000;
   color:white;
 }
+.wrap{
+  display:flex;
+  height:100vh;
+  justify-content:space-around;
+}
