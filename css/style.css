@@ -29,7 +29,7 @@ button:focus {
   outline: none;
 }
 #switch{
-  
+  height:30px;
 }
 .plus{
   width:20vw;
@@ -65,10 +65,14 @@ div, button, body{
   margin:0;
 }
 .rig{
+  height:10vh;
+  width:35vw;
   background-color:#0040a8;
   color: white
 }
 .lef{
+   height:10vh;
+  width:35vw;
   background-color:#560000;
   color:white;
 }
