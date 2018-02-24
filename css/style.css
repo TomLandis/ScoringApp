@@ -14,10 +14,23 @@ h1{
   padding-bottom: 20px;
 
 }
+.righty{
+  background-color:#ce311c;
+  min-height:50vh;
+}
+.left{
+
+  min-height:50vh;
+  background-color:#0040a8;
+}
 .left, .righty{
+    display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
   color: white;
   width:40vw;
-  background-color:#0040a8;
+  
  text-align:center;
   min-width:110px;
   padding-bottom: 20px;
@@ -44,7 +57,7 @@ button:focus {
 .minus{
    width:20vw;
   padding: 5px 5px 10px 5px;
-  background-color:#560000;
+  background-color:#424242;
   border: 0px solid blue;
   font-size: 1.7em;
   border-radius: 0px 0px 20px 20px;
@@ -74,7 +87,7 @@ div, button, body{
 .lef{
    height:10vh;
   width:35vw;
-  background-color:#560000;
+  background-color:#ce311c;
   color:white;
 }
 .wrap{
