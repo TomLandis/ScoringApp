@@ -14,14 +14,20 @@ h1{
   padding-bottom: 20px;
 
 }
+.righty{
+  background-color:#ce180e;
+}
+.left{
+  background-color:#0040a8;
+}
 .left, .righty{
   color: white;
   width:40vw;
-  background-color:#0040a8;
+  min-height:50vw;
  text-align:center;
   min-width:110px;
   padding-bottom: 20px;
-  border-radius: 7px;
+  border-radius: 12px;
   margin-top: 5px;
   
 }
@@ -33,44 +39,53 @@ button:focus {
 }
 .plus{
   width:20vw;
-  padding: 15px 5px 0px 5px;
-  background-color:#eff2ff;
+  padding: 0px;
+  background-color:#whitesmoke;
   border: 0px solid blue;
-  font-size: 1.7em;
-  border-radius: 20px 20px 0px 0px
+  font-size: 4em;
+  border-radius: 140px 140px 0px 0px
     
 }
 
 .minus{
    width:20vw;
-  padding: 5px 5px 10px 5px;
-  background-color:#560000;
+  padding: 0px;
+  background-color:#3a3838;
   border: 0px solid blue;
-  font-size: 1.7em;
-  border-radius: 0px 0px 20px 20px;
+  font-size: 4em;
+  border-radius: 0px 0px 140px 140px;
   color:white;
 }
 button{
-  padding:1em;
+  
   margin:11px;
+  font-size: 18px;
 }
 div, button, body{
   font-family: 'Arvo', serif;
 }
 #switch{
+  border-radius: 12px;
+  border: 0px solid white;
   width:90vw;
   color:#560000;
   font-size:20px;
   padding:0px;
-  margin:0;
+  height:35px;
 }
 .rig{
+  border-radius: 12px;
+  border: 0px solid white;
   background-color:#0040a8;
-  color: white
+  color: white;
+  font-size:2em;
 }
 .lef{
-  background-color:#560000;
+    border-radius: 12px;
+  border: 0px solid white;
+  background-color:#ce180e;
   color:white;
+  font-size:2em;
 }
 .wrap{
   display:flex;
