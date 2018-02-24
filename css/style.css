@@ -72,3 +72,13 @@ div, button, body{
   background-color:#560000;
   color:white;
 }
+.wrap{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vw;
+}
+.game, .set{
+  width: 30vw;
+  height: 20vh
+}
